@@ -2,3 +2,13 @@ body {
   background-color: white;
   color: black;
 }
+
+.boxthing {
+	background-color: black;
+	width: 800px;
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 3px;
+	padding: 75px;
+	margin: auto;
+}
