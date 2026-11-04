@@ -3,6 +3,20 @@ body {
   color: black;
 }
 
+.main {
+	background-color: #000000;
+	width: 960px;
+	outline-style: solid;
+	outline-color: black;
+	padding: 75px;
+	margin: auto;
+	font-family: "MS Gothic", "ＭＳ ゴシック", "MS ゴシック", Msgothic, monospace, sans-serif;
+
+	border: 30px solid transparent; /* Required for border-image */
+  	border-image: url("images/woodborder.png") 64 round;
+}
+
+/* OLD LMAO */
 .boxthing {
 	background-color: black;
 	width: 800px;
@@ -12,3 +26,4 @@ body {
 	padding: 75px;
 	margin: auto;
 }
+
